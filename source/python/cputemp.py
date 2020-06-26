@@ -5,7 +5,7 @@ def main():
     """
     Program to demonstrate how to obtain the current value of the CPU temperature.
     """
-    print('Current CPU temperature is {:.2f} degrees Celcius.'.format(get_cpu_temp()))
+    print('Current CPU temperature is {:.2f} degrees Celsius.'.format(get_cpu_temp()))
 
 
 def get_cpu_temp():
@@ -22,7 +22,7 @@ def get_cpu_temp():
         line = f.readline().strip()
     # Test if the string is an integer as expected.
     if line.isdigit():
-        # Convert the string with the CPU temperature to a float in degrees Celcius.
+        # Convert the string with the CPU temperature to a float in degrees Celsius.
         result = float(line) / 1000
     # Give the result back to the caller.
     return result

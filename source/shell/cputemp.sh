@@ -13,7 +13,7 @@ function get_cpu_temp()
   # Test if the string is an integer as expected with a regular expression.
   if [[ $line =~ ^-?[0-9]+$ ]]
   then
-    # Convert the CPU temperature to degrees Celcius and store as a string.
+    # Convert the CPU temperature to degrees Celsius and store as a string.
     result=$(awk "BEGIN {printf \"%.2f\n\", $line/1000}")
   fi
   # Give the result back to the caller.
@@ -25,5 +25,5 @@ function get_cpu_temp()
 # Program to demonstrate how to obtain the current value of the CPU temperature.
 #----------------------------------------------------------------------------------------
 cputemp=$(get_cpu_temp)  
-echo Current CPU temperature is $cputemp degrees Celcius.
+echo Current CPU temperature is $cputemp degrees Celsius.
 

@@ -23,7 +23,7 @@ float get_cpu_temp(void);
 ****************************************************************************************/
 int main(void)
 {
-  printf("Current CPU temperature is %.2f degrees Celcius\n", get_cpu_temp());
+  printf("Current CPU temperature is %.2f degrees Celsius\n", get_cpu_temp());
   return 0;
 } /*** end of main ***/
 
