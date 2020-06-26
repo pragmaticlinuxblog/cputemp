@@ -1,5 +1,6 @@
 # CpuTemp
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
 Source code snippets in several programming languages for reading the CPU temperature in Linux. Tested on Debian and Raspbian.
 
 ## Terminal
