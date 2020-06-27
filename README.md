@@ -14,11 +14,11 @@ The first line in file `/sys/class/thermal/thermal_zone0/temp` is read and then 
 
 Make sure the script is executable and then you can run it directly:
 
-`cd source\python`
+`cd source/python`
 
 `chmod +x cputemp.py`
 
-`.\cputemp.py`
+`./cputemp.py`
 
 The Python script contains a reusable function `get_cpu_temp()` that you can copy to your own Python program. Additionally, it contains a  test program implemented in function `main()` to demonstrate how to use the `get_cpu_temp()` function.
 
@@ -26,11 +26,11 @@ The Python script contains a reusable function `get_cpu_temp()` that you can cop
 
 Make sure the script is executable and then you can run it directly:
 
-`cd source\shell`
+`cd source/shell`
 
 `chmod +x cputemp.sh`
 
-`.\cputemp.sh`
+`./cputemp.sh`
 
 The shell script contains a reusable function `get_cpu_temp()` that you can copy to your own shell script. Additionally, it contains a  test program to demonstrate how to use the `get_cpu_temp()` function.
 
@@ -38,11 +38,11 @@ The shell script contains a reusable function `get_cpu_temp()` that you can copy
 
 Compile the source-file and link it to an executable. Afterwards you can run it directly:
 
-`cd source\c`
+`cd source/c`
 
 `gcc cputemp.c -o cputemp`
 
-`.\cputemp`
+`./cputemp`
 
 The C program contains a reusable function `get_cpu_temp()` that you can copy to your own C program. Additionally, it contains a  test program implemented in function `main()` to demonstrate how to use the `get_cpu_temp()` function.
 
@@ -50,11 +50,11 @@ The C program contains a reusable function `get_cpu_temp()` that you can copy to
 
 Compile the source-file and link it to an executable. Afterwards you can run it directly:
 
-`cd source\pascal`
+`cd source/pascal`
 
 `fpc cputemp.pas -ocputemp`
 
-`.\cputemp`
+`./cputemp`
 
 The Pascal program contains a reusable function `get_cpu_temp()` that you can copy to your own Pascal program. Additionally, it contains a  test program to demonstrate how to use the `get_cpu_temp()` function.
 
