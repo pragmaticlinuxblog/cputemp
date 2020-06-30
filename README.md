@@ -1,7 +1,7 @@
 # CpuTemp
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-Source code snippets in several programming languages for reading the CPU temperature in Linux. Tested on Debian and Raspbian.
+Source code snippets in several programming languages for reading the CPU temperature in Linux. Tested on Debian and Raspbian. Refer to [this blog article](https://www.pragmaticlinux.com/2020/06/check-the-raspberry-pi-cpu-temperature/) on the PragmaticLinux blog for an in depth explanation on using this code.
 
 ## Terminal
 
