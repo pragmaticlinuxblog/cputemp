@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 
+import os
+
+
 def main():
     """
     Program to demonstrate how to obtain the current value of the CPU temperature.
